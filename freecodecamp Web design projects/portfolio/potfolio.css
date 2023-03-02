@@ -1,0 +1,306 @@
+body{
+  margin:0;
+    padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(241, 238, 238);
+  overflow-x: hidden;
+}
+ 
+  header{
+    display: flex;
+    flex-direction: column;
+  
+}
+.head{
+  background: rgb(177, 39, 69);
+  text-align: right;
+  padding: 20px;
+  width: 100%;
+  border-bottom: solid 2px black;
+  position: fixed;
+ 
+}
+.first{
+  list-style: none;
+  display: inline;
+ 
+}
+.firs{
+  text-decoration: none;
+  color:white;
+  font-size: 1.4em;
+  padding: 1.2em;
+  font-weight: 400;
+}
+.firs:hover{
+  background:rgb(60, 60, 202);
+ 
+}
+.head1{
+  width: 100%;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+text-align: center;
+height:20vh;
+padding:20% 0 20% 0;
+} 
+#head1{
+  font-size:60px;
+  color: white;
+}
+#p1{
+  font-size: 30px;
+  margin-top: -30px;
+  color:rgb(177, 39, 69);
+
+}
+.size{
+  width:390px;
+  height:400px;
+ 
+}
+.projects{
+  background:#415177 ;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;
+  
+}
+#projects{
+border-bottom: solid 2px white;
+}
+#project{
+ font-size: 50px;
+ color: white;
+}
+.flex1{
+  display:flex;
+}
+
+#pic1{
+  margin-left:20px;
+  margin-right:20px
+  
+}
+#pic2{
+  margin-left:20px;
+  margin-right:0px;
+  
+}
+
+  #pic3{
+    margin-left:35px
+}
+#pic4{
+  margin-left:20px;
+  margin-right:20px
+  
+}
+#pic5{
+  margin-left:20px;
+  margin-right:0px;
+}
+
+  #pic6{
+    margin-left:35px
+}
+figcaption{
+  height: 30px;
+  width:390px;
+  background: #3a3d40;
+margin-top:-5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+padding-top:20px;
+padding-bottom:20px;
+font-size:20px;
+color:white;
+cursor:pointer;
+}
+#ad,#add{
+  display:none;
+}
+#word:hover + #add {
+  display:inline;
+  color:orangered;
+} 
+button{
+  width:150px;
+  height:50px;
+ background:#3a3d40;
+  border:none;
+margin-top: 30px;
+margin-bottom: 100px;
+font-size:20px;
+color:white;
+transition:padding-left 3s;
+}
+button:hover,#s:hover{
+  background:rgb(177, 63, 63);
+  padding-left:10px;
+}
+#button{
+  margin-left:00px;
+}
+.bottom{
+  width:100%;
+  height:80vh;
+  background: #303439; ;
+  border-bottom: solid 5px rgb(177, 39, 69) ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+
+}
+#bottom{
+  font-size: 4rem;
+}
+#bottoms{
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-top: -35px;
+  margin-bottom: 35px;
+}
+
+.figures{
+  display: flex;
+  padding-top: 15px;
+  height:200px;
+}
+.b1{
+flex: 1;
+
+}
+.b2{
+flex:5;
+  margin:2px;
+  display: flex;
+
+}
+.b3{
+  flex: 1;
+ 
+}
+.facebook{
+ display: flex;
+ padding-right: 30px;
+ padding-left: 30px;
+ padding-top: 30px;
+ font-size: 1.4rem;
+
+}
+.element {
+  position:relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.element:before {
+  font-family: FontAwesome;
+  content: "\f082";
+/*--adjust as necessary--*/
+  color:white;
+  font-size: 30px;
+  padding-right: 0.5em;
+  padding-top:15px ;
+}
+
+.Github {
+  position:relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.Github:before {
+  content: "\f09b";
+  font-family: FontAwesome;
+/*--adjust as necessary--*/
+  color:white;
+  font-size: 30px;
+  padding-right: 0.5em;
+  padding-top:15px ;
+}
+.Twitter {
+  position:relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.Twitter:before {
+  content:"\f099";
+  font-family: FontAwesome;
+/*--adjust as necessary--*/
+  color:white;
+  font-size: 30px;
+  padding-right: 0.5em;
+  padding-top:15px ;
+}
+.Send {
+  position:relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.Send:before {
+  content:"\f232" ;
+  font-family: FontAwesome;
+/*--adjust as necessary--*/
+  color:white;
+  font-size: 30px;
+  font-weight: 900;
+  padding-right: 0.5em;
+  padding-top:15px ;
+}
+.Call {
+  position:relative;
+}
+
+/*replace the content value with the
+corresponding value from the list below*/
+
+.Call:before {
+  content:"\f10b";
+  font-family: FontAwesome;
+/*--adjust as necessary--*/
+  color:white;
+  font-size: 30px;
+  padding-right: 0.5em;
+  padding-top:15px ;
+}
+footer{
+  display:flex;
+  flex-direction: row;
+  background: #303439;
+  padding: 20px ;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  font-size: 1.2em;
+  
+}
+#last{
+  margin-left: 30px;
+  flex: 2;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#las{
+  margin-left: 15px;
+  padding-left: 50px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.facebook{
+transition: padding-top 1s;
+}
+.facebook:hover{
+  padding-top:35px;
+}

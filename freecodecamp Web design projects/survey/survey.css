@@ -1,0 +1,86 @@
+*{
+margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    padding:0;
+    margin:0;
+  
+}*
+.container{
+    background-image: linear-gradient(rgba(116, 92, 221, 0.75),rgba(48, 37, 105, 0.75)),url(photo.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+   color: white;
+   background-attachment: fixed;
+  
+}
+
+h1{
+    text-align: center;
+    padding-top: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+}
+p{
+    text-align: center;
+    font-size: 18px ;
+    padding-top: 10px;
+
+}
+.content{
+    width:55%;
+    height:100%;
+    background:rgba(40, 40, 70, 0.8);
+    margin-left:280px;
+    margin-top:35px;
+    border-radius:7px;
+    opacity: 0.9;
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+}
+.survey-form{
+    padding-left: 40px;
+    font-size: 20px;
+  
+}
+.form label{
+    padding-top: 30px;
+    display: block;
+    padding-bottom: 5px;
+}
+.form input,select{
+    width:90%;
+    padding:9px;
+    border-radius: 5px;
+   
+}
+.radio,.checkbox{
+    padding-top: 20px;
+}
+.form input[type="submit"]{
+   margin-top: 25px;
+   background-color: rgb(91, 207, 91);
+   border-radius: 1px;
+   border: none;
+   height:50px;
+   cursor: pointer;
+   
+}
+textarea{
+    width: 89%;
+    height:20vh;
+}
+input.check{
+    height: 20px;
+    width:20px;
+    margin-right:10px;
+}
+input.radio{
+    margin-right: 10px;
+    height: 20px;
+    width:20px;
+}
+

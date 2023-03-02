@@ -1,0 +1,172 @@
+body{
+    width: 100%;
+    height:100%;
+    background-color: rgb(235, 231, 227);
+   padding: 0;
+   margin-bottom: 0;
+}
+.container{
+    width:100%;
+    padding-left: 70x;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 0px;
+    height:100%;
+ ;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width:250px;
+    height:40px;
+    padding-left: 35px;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style: none;
+   margin-right: 80px;
+  
+}
+.navlink{
+    text-decoration: none;
+    color:black;
+}
+.form1{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+   
+}
+.for1{
+    width:260px;
+    padding: 6px;
+    margin-bottom:15px;
+    
+}
+.for2{
+    background-color: #f1c40f;
+    padding: 4px 20px;
+    font-size: large; 
+    font-weight: 900;
+    border: none;
+}
+.for2:hover{
+    background-color: orange;
+}
+.middle{
+    display: flex;
+    margin-top: 80px;
+    height:100%;
+}
+.empty{
+    flex: 1;
+    text-align:right;
+    padding-right:10px;
+}
+.full{
+    flex:4;
+    text-align:left;
+    padding-left: 50px;
+    padding-right: 90px;
+}
+.head{
+    margin-bottom:1px;
+}
+.content{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.icon {
+    position:relative;
+    margin-bottom: 50px;
+}
+ 
+/*replace the content value with the
+corresponding value from the list below*/
+ 
+.icon:before {
+    content:"\f06d";
+    color:  darkorange;
+    font-weight:900;
+    font-size: 4em;
+    top: 10px;
+    font-family: "Font Awesome 5 Free";
+}
+.icon1 {
+    position:relative;
+    margin-bottom: 50px;
+}
+.icon1:before {
+    content:"\f0d1";
+    color:  darkorange;
+    font-weight:900;
+    font-size: 4em;
+  
+}
+.icon2 {
+    position:relative;
+}
+.icon2:before {
+    content:"\f240";
+    color:  darkorange;
+    font-weight:900;
+    font-size: 4em;
+  
+}
+.videos{
+    text-align: center;
+}
+
+.frames{
+    display: flex;
+    width:60em;
+   /* border: solid 1px black;*/
+    height:22em;
+    text-align: center;
+    margin-left: 12em;
+    margin-top: 60px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.box{
+    flex:1;
+    border:solid black 1px;
+     width:10px;
+     margin:0px 20px 0px 0px;
+}
+
+#for2{
+    padding:10px 20px;
+    margin-top:30px;
+}
+h3{
+    background-color: gray;
+    padding-top: 15px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+}
+.footer{
+    width:60em;
+    height: 5em;
+    border: solid black 1px;
+    padding:15px;
+    margin-left:160px;
+    text-align: right;
+    padding-bottom: 0px;
+    background-color: #ddd;
+    position: relative;
+}
+
+.list{
+    display: inline ;
+    margin-left: 10px;
+  
+}
+.anch{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    padding-bottom: 0px;
+}
